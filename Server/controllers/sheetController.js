@@ -19,7 +19,7 @@ const createRow = async (req, res) => {
     console.error('Error adding row to Google Sheets:', error);
     res.status(500).json({ error: 'Error adding row to Google Sheets' });
   }
-}
+};
 
 module.exports = {
   getData,

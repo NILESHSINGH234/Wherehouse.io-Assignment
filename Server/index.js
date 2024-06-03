@@ -18,9 +18,6 @@ app.use(
 
 app.use(bodyParser.json());
 app.use('/api', sheetRoutes);
-app.get('/',(req,res)=>{
-  res.send('ok Done')
-})
 
 
 
