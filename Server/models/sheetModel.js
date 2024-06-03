@@ -1,5 +1,7 @@
 const { google } = require('googleapis');
 const creds = require('../credentials.json');
+const dotenv = require('dotenv');
+dotenv.config();
 
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
